@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/icons8_home_filled_208"
+            android:title="Home"
+            />
+
+        <item
+            android:id="@+id/nav_sholarship"
+            android:icon="@drawable/icons8_schedule_filled_100"
+            android:title="Timetable" />
+
+        <item
+            android:id="@+id/nav_calculateGPA"
+            android:icon="@drawable/icons8_calculator_90"
+            android:title="Curriculum map" />
+
+        <item
+            android:id="@+id/nav_curriculum"
+            android:icon="@drawable/icons8_study_100"
+            android:title="Current Enroll" />
+
+        <item
+            android:id="@+id/nav_document"
+            android:icon="@drawable/icons8_inspection_96"
+            android:title="Documentation" />
+
+
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/icons8_user_96"
+                android:title="Profile" />
+            <item
+                android:id="@+id/nav_signout"
+                android:icon="@drawable/icons8_exit_96"
+
+                android:title="Sign out" />
+        </menu>
+    </item>
+
+</menu>
